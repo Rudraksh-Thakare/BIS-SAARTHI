@@ -24,10 +24,7 @@ services:
       - key: MATCH_THRESHOLD
         value: "0.35"
       - key: FRONTEND_URL
-        fromService:
-          type: web
-          name: bis-saarthi-frontend
-          property: renderExternalUrl
+        value: "*" # Allow all origins by default (or set to your specific frontend URL in Render Dashboard)
 
   # React frontend static site built with Vite
   - type: web
@@ -38,10 +35,7 @@ services:
     staticPublishPath: dist
     envVars:
       - key: VITE_API_URL
-        fromService:
-          type: web
-          name: bis-saarthi-backend
-          property: renderExternalUrl
+        sync: false # Set to your backend URL (e.g., https://bis-saarthi-backend.onrender.com)
     # Direct all routes to index.html for client-side routing
     routes:
       - type: rewrite
