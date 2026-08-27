@@ -1,0 +1,128 @@
+[
+  {
+    "is_number": "IS 302 (Part 1): 2008",
+    "title": "Safety of Household and Similar Electrical Appliances - General Requirements",
+    "sector": "electrical safety",
+    "scope": "Covers safety requirements for household and similar electrical appliances with rated voltage not exceeding 250V for single-phase and 480V for other appliances. It deals with common hazards presented by appliances which are encountered by all persons in and around the home.",
+    "key_requirements": "Protection against access to live parts, proper insulation resistance, dielectric strength, temperature limits, moisture resistance, leakage current limits under operating temperature, robust mechanical strength, and clear marking/labeling."
+  },
+  {
+    "is_number": "IS 12640 (Part 1): 2016",
+    "title": "Residual Current Operated Circuit Breakers (RCCBs) without Integral Overcurrent Protection",
+    "sector": "electrical safety",
+    "scope": "Applies to residual current operated circuit breakers functionally independent of, or functionally dependent on, line voltage, for household and similar uses, not incorporating overcurrent protection, for rated voltages not exceeding 440V AC and rated currents not exceeding 125A.",
+    "key_requirements": "Minimum residual operating current of 30mA for personal protection, tripping times within specified milliseconds, clear trip state indication, test button functionality, and mechanical endurance of at least 2000 operations."
+  },
+  {
+    "is_number": "IS 694: 2010",
+    "title": "Polyvinyl Chloride (PVC) Insulated unsheathed and sheathed cables/cords with rigid and flexible conductor for voltages up to and including 1100V",
+    "sector": "electrical safety",
+    "scope": "Specifies requirements for single and multicore PVC insulated cables for electric power and lighting in domestic, commercial, and industrial setups.",
+    "key_requirements": "Conductor resistance limits, minimum PVC insulation thickness, oxygen index testing, flame retardancy behavior, acid gas emission limits, thermal stability, and high voltage test performance."
+  },
+  {
+    "is_number": "IS 3854: 1997",
+    "title": "Switches for Domestic and Similar Fixed Electrical Installations",
+    "sector": "electrical safety",
+    "scope": "Applies to manually operated general purpose switches, for AC only with a rated voltage not exceeding 440V and a rated current not exceeding 63A, intended for domestic and similar fixed electrical installations.",
+    "key_requirements": "Compliance with rated switching capacities, contact gap of at least 3mm, temperature rise at terminals not exceeding 45K, mechanical wear resistance of 40,000 operations, and insulation resistance of 5 Megohms."
+  },
+  {
+    "is_number": "IS 1293: 2019",
+    "title": "Plugs and Socket-Outlets of Rated Voltage up to and including 250V and Rated Current up to and including 16A",
+    "sector": "electrical safety",
+    "scope": "Applies to plugs and fixed or portable socket-outlets for AC only, with or without earthing contact, with a rated voltage not exceeding 250V and rated currents of 2.5A, 6A, and 16A, intended for household and similar purposes.",
+    "key_requirements": "Shuttered socket-outlets for child safety, non-accessibility of live pins during insertion, mechanical strength to resist drops, thermal stability up to 100 degrees Celsius, and screw-less or screw-based terminal stability."
+  },
+  {
+    "is_number": "IS 15111 (Part 1): 2002",
+    "title": "Self-Ballasted Lamps for General Lighting Services - Safety Requirements",
+    "sector": "electrical safety",
+    "scope": "Specifies the safety and interchangeability requirements, together with the test methods and conditions, required to show compliance of tubular fluorescent and other self-ballasted lamps for domestic and similar general lighting purposes.",
+    "key_requirements": "Flame-retardant lamp cap material, creepage distance and clearance checks, mechanical strength of lamp cap adhesion, resistance to heat and fire, and protection against accidental contact with live parts."
+  },
+  {
+    "is_number": "IS 14543: 2016",
+    "title": "Packaged Drinking Water (Other than Packaged Natural Mineral Water)",
+    "sector": "packaged food",
+    "scope": "Prescribes physical, chemical, and microbiological requirements, along with testing methodologies, for packaged drinking water filled in hermetically sealed containers of various capacities for direct human consumption.",
+    "key_requirements": "Total dissolved solids (TDS) between 75-500 mg/l, pH level between 6.5-8.5, zero detection of E.coli and coliform bacteria, maximum limits for heavy metals (lead, arsenic, mercury), and mandatory hygienic manufacturing practices under BIS certification."
+  },
+  {
+    "is_number": "IS 11536: 2007",
+    "title": "Processed Cereal-Based Complementary Foods for Infants",
+    "sector": "packaged food",
+    "scope": "Prescribes requirements and methods of test for processed cereal-based complementary foods intended for feeding infants as a complement to breast milk or infant formula, from the age of six months onwards.",
+    "key_requirements": "Minimum protein content of 15% by mass, moisture max 5%, maximum ash content, minimum energy density of 4 kcal/g, enrichment with essential vitamins and minerals, zero pathogens, and strict limits on pesticide residues."
+  },
+  {
+    "is_number": "IS 1165: 2002",
+    "title": "Milk Powder - Specification",
+    "sector": "packaged food",
+    "scope": "Prescribes requirements, methods of sampling, and test for milk powder. Applies to whole milk powder, partly skimmed milk powder, and skimmed milk powder obtained by spray drying or roller drying.",
+    "key_requirements": "Moisture content not exceeding 4.0% for spray-dried and 5.0% for roller-dried milk powder, minimum milk protein in solids, max solubility index, bacterial plate count limits, and absence of adulterants like starch and urea."
+  },
+  {
+    "is_number": "IS 5126: 1969",
+    "title": "Gelatin, Food Grade - Specification",
+    "sector": "packaged food",
+    "scope": "Prescribes requirements and methods of test for food-grade gelatin used as a gelling, stabilizing, and thickening agent in various food formulations.",
+    "key_requirements": "Moisture content under 15%, ash content under 3.2%, gel strength (Bloom value) specification, limits on sulfur dioxide, arsenic, lead, copper, and zinc, and negative test for Salmonella and E. coli."
+  },
+  {
+    "is_number": "IS 14856: 2000",
+    "title": "Packaged Natural Mineral Water",
+    "sector": "packaged food",
+    "scope": "Prescribes requirements and methods of test for packaged natural mineral water obtained directly from natural or exploited sources like springs or boreholes, bottled at the source with minimal treatment.",
+    "key_requirements": "Naturally present mineral composition, absence of any chemical treatment except aeration and filtration, microbiological safety, limits on organic contaminants, and tamper-proof packaging requirements."
+  },
+  {
+    "is_number": "IS 1547: 1985",
+    "title": "Infant Milk Food - Specification",
+    "sector": "packaged food",
+    "scope": "Prescribes requirements and methods of sampling and test for infant milk food intended for use as a milk substitute for infant feeding.",
+    "key_requirements": "Milk fat minimum 18% by mass, protein range 12-15%, carbohydrate content, maximum limits for iron, vitamins, calcium, phosphorus, maximum moisture of 4.5%, and total bacterial count less than 40,000 per gram."
+  },
+  {
+    "is_number": "IS 15651: 2006",
+    "title": "Textiles - Polyester Blend Shirting and Suiting - Specification",
+    "sector": "textiles",
+    "scope": "Prescribes physical and chemical requirements for polyester-blend shirting and suiting fabrics, including polyester-cotton and polyester-viscose blends.",
+    "key_requirements": "Polyester blend composition percentage tolerance of +/- 3%, minimum breaking strength, colorfastness to light, washing, rubbing, and perspiration, dimensional change (shrinkage) limits of max 2%, and pH value of aqueous extract between 6.0-8.5."
+  },
+  {
+    "is_number": "IS 1152: 1976",
+    "title": "Specification for Cotton Fabric for Umbrellas",
+    "sector": "textiles",
+    "scope": "Prescribes constructional details and other requirements of cotton fabrics used in the manufacture of umbrellas.",
+    "key_requirements": "High water repellency rating, threads per dm (ends and picks), mass per square meter, minimum breaking strength, scoured water-soluble matter limits, and fastness of dye to sunlight and rain."
+  },
+  {
+    "is_number": "IS 271: 1987",
+    "title": "Cotton Cambrics - Specification",
+    "sector": "textiles",
+    "scope": "Prescribes constructional details and other requirements for cotton cambrics, which are fine, thin, closely woven cotton fabrics.",
+    "key_requirements": "Count of yarn, ends and picks per cm, breaking load of fabric in warp and weft directions, length and width tolerances, and maximum shrinkage limits on washing."
+  },
+  {
+    "is_number": "IS 10757: 1983",
+    "title": "Polyester Blend Bed Sheets - Specification",
+    "sector": "textiles",
+    "scope": "Prescribes performance and construction requirements for woven bed sheets made from polyester blends, specifically blended with cotton or viscose.",
+    "key_requirements": "Blend composition verification, thread count minimums, pill resistance rating, tear strength, dimensional stability (shrinkage limit of 3%), and non-toxicity of dyes used."
+  },
+  {
+    "is_number": "IS 3751: 1993",
+    "title": "Cotton Sewing Threads - Specification",
+    "sector": "textiles",
+    "scope": "Prescribes requirements of cotton sewing threads, bleached or dyed, wound on spools, cones, or tubes.",
+    "key_requirements": "Single thread breaking strength, length per unit spool, count of yarn, twist direction and plies, colorfastness to washing and bleaching, and sewing performance under high speed."
+  },
+  {
+    "is_number": "IS 14158: 1994",
+    "title": "Jute Bags for Packing Cement - Specification",
+    "sector": "textiles",
+    "scope": "Prescribes requirements for double warp heavy cee jute bags used for packing cement.",
+    "key_requirements": "Dimensions (length and width), mass per bag, ends and picks per dm, breaking strength of fabric (warp and weft), seam strength, and moisture content limits of max 20% to prevent cement spoilage."
+  }
+]

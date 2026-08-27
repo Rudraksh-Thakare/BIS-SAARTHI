@@ -1,0 +1,49 @@
+services:
+  # Python backend web service running Flask
+  - type: web
+    name: bis-saarthi-backend
+    env: python
+    buildCommand: |
+      pip install torch --index-url https://download.pytorch.org/whl/cpu
+      pip install -r backend/requirements.txt gunicorn
+      HF_HOME=backend/.cache/huggingface python -c "from sentence_transformers import SentenceTransformer; SentenceTransformer('all-MiniLM-L6-v2')"
+    startCommand: gunicorn -b 0.0.0.0:$PORT backend.app:app
+    envVars:
+      - key: HF_HOME
+        value: backend/.cache/huggingface
+      - key: FLASK_ENV
+        value: production
+      - key: SUPABASE_URL
+        sync: false # Set in Render Dashboard
+      - key: SUPABASE_KEY
+        sync: false # Set in Render Dashboard
+      - key: GEMINI_API_KEY
+        sync: false # Set in Render Dashboard
+      - key: GEMINI_MODEL
+        value: gemini-1.5-flash
+      - key: MATCH_THRESHOLD
+        value: "0.35"
+      - key: FRONTEND_URL
+        fromService:
+          type: static
+          name: bis-saarthi-frontend
+          property: renderExternalUrl
+
+  # React frontend static site built with Vite
+  - type: static
+    name: bis-saarthi-frontend
+    env: static
+    rootDir: frontend
+    buildCommand: npm install && npm run build
+    publishPath: dist
+    envVars:
+      - key: VITE_API_URL
+        fromService:
+          type: web
+          name: bis-saarthi-backend
+          property: renderExternalUrl
+    # Direct all routes to index.html for client-side routing
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
