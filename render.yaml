@@ -2,7 +2,7 @@ services:
   # Python backend web service running Flask
   - type: web
     name: bis-saarthi-backend
-    env: python
+    runtime: python
     buildCommand: |
       pip install torch --index-url https://download.pytorch.org/whl/cpu
       pip install -r backend/requirements.txt gunicorn
@@ -25,17 +25,17 @@ services:
         value: "0.35"
       - key: FRONTEND_URL
         fromService:
-          type: static
+          type: web
           name: bis-saarthi-frontend
           property: renderExternalUrl
 
   # React frontend static site built with Vite
-  - type: static
+  - type: web
     name: bis-saarthi-frontend
-    env: static
+    runtime: static
     rootDir: frontend
     buildCommand: npm install && npm run build
-    publishPath: dist
+    staticPublishPath: dist
     envVars:
       - key: VITE_API_URL
         fromService:
